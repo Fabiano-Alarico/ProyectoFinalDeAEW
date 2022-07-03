@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="shortcut icon" href="../imagenes/icono1.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/matriculate.css">
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Let's learn English</h1>
+        </div>
+        
+        <nav >
+            <ul>
+                <li><a href="../paginas/menu.html" target="_blank">Inicio</a></li>
+                <li><a href="#">Cursos</a>
+                  <ul>
+                    <li><a href="../paginas/niños.html" target="_blank">Para niños</a>
+                        <ul class="sub1">
+                            <li><a href="../paginas/basiconiños.html" target="_blank">Nivel Básico</a></li>
+                            <li><a href="../paginas/intermedioniños.html" target="_blank">Nivel Intermedio</a></li>
+                            <li><a href="../paginas/avanzadoniños.html" target="_blank">Nivel Avanzado</a></li>
+                        </ul></li>
+                    <li><a href="../paginas/adultos.html" target="_blank">Para adultos </a>
+                        <ul class="sub2">
+                            <li><a href="../paginas/basicoadultos.html" target="_blank">Nivel Básico</a></li>
+                            <li><a href="../paginas/intermedioadultos.html" target="_blank">Nivel Intermedio</a></li>
+                            <li><a href="../paginas/avanzadoadultos.html" target="_blank">Nivel Avanzado</a></li>
+                        </ul></li>   
+                  </ul>
+                </li>
+                
+                <li><a href="#">¡Empieza ya! </a>
+                   <ul>
+                    <li><a href="../paginas/matricula.html" target="_blank">¿Cómo matricularme?</a></li>
+                    <li><a href="../paginas/test.html" target="_blank">Test Gratuito</a></li>
+                </ul></li>
+                
+                <li><a href="../paginas/contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main>
+        <img class="banner" src="../imagenes/inscripciones-y-matriculas.jpg" alt="">
+
+        <h1>Matricula onnline</h1>
+            <p>Recuerda nuestros Cursos que te ofrecemos:</p>
+            <img src="../imagenes/INGLES-NINOS.jpg" alt="">
+            <img src="../imagenes/INGLES-JOVENES.jpg" alt="">
+            <img src="../imagenes/INGLES-ADULTOS.jpg" alt="">
+       
+        <div class="caja1">
+            
+            <aside></aside>
+            <h2>1. Registro</h2>
+            <p>Si te decidiste a ingresar al mundo de ingles, llena el formulario de Nuevo Estudiante y realiza el test que es totalemnte GRATUITO. </p>
+            <form>
+                <fieldset>
+                    <legend>FORMULARIO DE NUEVO ESTUDIANTE</legend><br>
+                    <label >Nombres y apellidos</label><br>
+                    <input type="text" name="nombre"><br><br>
+                    <input type="text" name="apellido"><br><br>
+                    <label>Fecha de nacimiento</label><br>
+                    <input type="date" name="fecha"><br><br>
+                    <label>Edad</label><br>
+                    <input title="Solo números"  type="text" maxlength="2"/><br><br>
+                    <label>DNI</label><br>
+                    <input title="Solo números"  type="text" maxlength="8"/><br><br>
+                    <label>Provincia</label><br>
+                    <input type="text" name="provincia"><br><br>
+                    <label>Distrito</label><br>
+                    <input type="text" name="Distrito" /><br><br>
+                    <label>Domicilio</label><br>
+                    <input type="text" name="Domicilio" /><br>
+                    <h3>Si eres mayor de edad</h3>
+                    <label>Email</label><br>
+                    <input type="email" name="email" placeholder="ejemplo@hotmail.com"><br><br>
+                    <label>Celular</label><br>
+                    <input title="Solo números"  type="text" maxlength="9"/><br><br>
+                    <legend>DATOS DEL APODERADO</legend><br>
+                    <label for="">Nombres y apellidos</label><br>
+                    <input type="text" name="nombre"><br><br>
+                    <input type="text" name="apellido"><br><br>
+                    <label for="">Parentesco</label><br>
+                    <select name="" id="">
+                        <option value="">Padre</option>
+                        <option value="">Madre</option>
+                        <option value="">Otro</option>
+                    </select><br><br>
+                    <label for="">DNI</label><br>
+                    <input title="Solo números"  type="text" maxlength="8"/><br><br>
+                    <label for="">Email</label><br>
+                    <input type="email" name="email" placeholder="ejemplo@hotmail.com"><br><br>
+                    <label for="">Telefono</label><br>
+                    <input title="Solo números"  type="text" maxlength="9"/><br><br>
+                    <label for="">Provincia</label><br>
+                    <input type="text" name="provincia"><br><br>
+                    <label>Distrito</label><br>
+                    <input type="text" name="Distrito" /><br><br>
+                    <label for="">Domicilio</label><br>
+                    <input type="text" name="Domicilio" /><br><br>
+                    <legend>Eleccion del curso</legend><br>
+                    <label for="">Programa</label><br>
+                    <select name="" id="">
+                        <option value="">Programa para niños</option>
+                        <option value="">Programa para jovenes y adultos</option>
+                        <option value="">Programa para gente que trabaja</option>
+                    </select><br><br>
+                    <label for="">Nivel</label><br>
+                    <select name="" id="">
+                        <option value="">Básico</option>
+                        <option value="">Intermedio</option>
+                        <option value="">Avanzado</option>
+                    </select><br><br>
+                    <label for="">Grupo</label><br>
+                    <select name="" id="">
+                        <option value="">De 5 - 8</option>
+                        <option value="">De 8 - 12</option>
+                        <option value="">De 12 - 17</option>
+                    </select><br><br>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Borrar">
+                    
+            
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="caja2">
+            <div class="c1">
+            <h2>2. Contacto</h2>
+            <p>Una vez registrado nos contactaremos contigo para la confirmacion de datos y avance la matricula </p>
+        </div>
+        <div class="c2">
+            <h2>3. Pago</h2>
+            <p>Puedes pagar via online o por medio de una agente bancario. Nos mandas captura del pago realizado y confirmaremos tu matricula. Via online obtendras tu codigo de estduiante a las 24 horas.</p>
+        </div>
+        <div class="c3">
+            <h1>Bienvenido a Let's learn English...</h1>
+        <img src="../imagenes/basico_adultos.jpg" alt="">
+        </div>
+
+        <a href="../paginas/test.html">Realizar Test Gratuito</a> 
+        
+
+        </div>
+
+
+    </main>
+
+    <footer >
+    
+        <section class="footer">
+    
+            <article class="foo1">
+            <p>Para más información visite nuestras redes sociales:</p>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="IMG3" src="../imagenes/facebook.png" alt="">
+                </a>
+    
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="IMG" src="../imagenes/intragram1.png" alt="">
+                </a>
+                
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="IMG" src="../imagenes/youtube.png" alt="">
+                </a>
+            </article>
+    
+            <article class="foo2">
+            <h3>WhatsApp: 987 654 321</h3>
+            <h3>Tel.:(01)654 3210</h3>
+            <hr>
+            <h3>Correo: letslearnenglish@academy.edu.pe</h3>
+            </article>
+        </section>
+        </footer>
+    
+</body>
+</html>

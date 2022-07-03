@@ -1,0 +1,160 @@
+#titulo{
+    margin: auto;
+    background-color: #9fb6cd;
+    width: 20%;
+    float: left;
+    height: 312px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+
+.uno, .dos, .tres, .cuatro{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    letter-spacing: 4px;
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+
+.uno{
+    margin-top: 10px;
+    background-color: #faf0be;
+}
+
+.dos{
+    background-color: #edc9af;
+}
+
+.tres{
+    background-color: #f08080;
+}
+
+.cuatro{
+    background: #3494e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3494e6, #ec6ead); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3494e6, #ec6ead); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 10px;
+}
+
+img{
+    width: 65%;
+    margin: 5px;
+    height: 550px;
+}
+
+form h2{
+    font-size: 20pt;
+}
+
+fieldset{
+    border: 5px solid dimgrey;
+}
+
+.caja1{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 30%;
+    margin:0px 30px;
+    height: 550px;
+}
+
+legend{
+    text-align: center;
+}
+
+label,input{
+    margin: 5px 20px;
+    font-size: 15pt;
+}
+
+.enviar{
+    margin: 5px 100px;
+    width: 50%;
+    background-color: blueviolet;
+    color: beige;
+}
+
+h2{
+    background-color: aliceblue;
+    margin: auto;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.partes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.partes div{
+    margin: 35px 10px;
+    text-align: center;
+    background-color: darkorange;
+    border-radius: 20px;
+}
+
+.partes div:hover{
+    background-color: darkkhaki;
+    transition: all 1s;
+}
+
+.partes div p{
+    margin: 10px 30px;
+    font-size: 15pt;
+}
+
+h4{
+    font-size: 20pt;
+    margin: 10px auto;
+}
+
+.grupos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+figure{
+    width: 35%;
+    margin: 10px;
+}
+
+figure img{
+    width:200px;
+    height: 200px;
+    margin-left: 90px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 15pt;
+}
+
+.video{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    margin: 15px;
+}

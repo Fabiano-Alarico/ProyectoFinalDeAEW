@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 27pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div1{
+    width: 70%;
+    display: flex;
+}
+
+.div1 article{
+    text-align: center;
+    height: 354px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+article h2{
+    font-size: 29pt;
+}
+
+article p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 19pt;
+}
+
+.atencion{
+    width: 390%;
+    height: 354px;
+    float: left;
+    margin-left: 9px;
+    margin-bottom: 25px;
+}
+
+#IMGS{
+    width: 100%;
+    display: flex;
+    background-color: rgb(49, 41, 41);
+}
+
+aside div img{
+    border-radius: 10px;
+    width: 102%;
+    height: 260px;
+}
+
+figure{
+    margin: 23px;
+}
+
+figcaption{
+    font-size: 16.5pt;
+    color: rgb(224, 223, 223);
+    text-align: center;
+}

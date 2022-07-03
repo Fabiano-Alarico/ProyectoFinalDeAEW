@@ -1,0 +1,27 @@
+*{font-size: 15pt;}
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+main p{
+    text-align: center;
+    font-size: 25pt;
+}
+
+h1{
+    font-size: 35pt;
+    color: red;
+    margin-left: 20px;
+    }
+label{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+input{margin-left: 50px;}
+
+.boton{ width: 15%;}
+
+.botones{display: flex;justify-content: center;align-items: center;margin: 20px;}
+

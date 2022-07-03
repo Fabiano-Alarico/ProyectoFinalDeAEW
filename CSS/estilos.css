@@ -1,0 +1,43 @@
+body{background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+      
+    
+       /*Header*/
+       .titulo h1{padding: 0px; background-color: beige;text-align: center; font-size: 50pt;margin: 5px;}
+       
+        /* nav estilos generales*/
+       nav{width: 100%;}
+       nav > ul> li{margin: 5px 0px;}
+       nav ul{list-style: none; padding: 0;}
+       nav a{ text-decoration: none;color: black;display: block;padding: 0 2.5em; transition:all 1s; font-size: 28pt;}
+       nav a:hover{background: rgb(255, 239, 226);color: black;}
+       nav li ul{display: none;}
+       nav li:hover > ul{display: block;}
+       nav li{line-height: 3rem; position: relative;}
+       nav li ul{position: absolute; width: 120%;}
+       /*primer nivel*/
+       nav > ul {background:goldenrod; display: table;width: 100%;}
+       nav >ul>li {float: left;}
+       /*segundo nivel*/
+       nav li li{background:wheat;width: 100%;}
+       nav li li a{font-size: 20pt;}
+       nav>ul>li>ul{top: 100%;}
+       /*tercer nivel*/
+       .sub1{left: 100% ;top: 0;}
+       .sub2{left: 100% ;top: 0;}
+       .sub1 li{width: 80%;}
+       .sub2 li{width: 80%;}
+       .sub1 li a{font-size: 21pt;}
+       .sub2 li a{font-size: 21pt;}
+
+     /*footer*/
+     .footer{background-color: goldenrod;margin: 5px;border: 2px groove white; width: 99%;height: 150px;display: flex;flex-direction: row;}
+     .foo1{width: 50%;}
+     .foo1 img{height: 50px;width: 50px; margin:5px 60px;}
+     .footer a{text-decoration: none;}
+     .footer p{color: white; font-size: 20pt;margin: 25px 20px;}
+     .foo2{width:50%;margin: 5px 50px;}
+     .footer h3{font-size: 12pt;color: white;text-align: center;}

@@ -1,0 +1,63 @@
+img{width: 65%;margin: 5px;height: 550px;}
+form h2{font-size: 20pt;}
+fieldset{border: 5px solid dimgrey;}
+.caja1{display: flex;flex-direction: row;width:100% ;justify-content: center;align-items: center;}
+form{width: 30%;margin:0px 30px;height: 550px;}
+legend{text-align: center;}
+label,input{margin: 5px 20px;font-size: 15pt;}
+.enviar{margin: 5px 100px;width: 50%;background-color: blueviolet;color: beige;}
+#titulo{
+margin: auto;
+background-color: #9fb6cd;
+width: 88%;
+padding: 10px;
+height: 290px;
+margin-right: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+
+h1{
+width: 80%;
+height: 65px;
+margin: auto;
+letter-spacing: 4px;
+font-size: 35pt;
+text-align: center;
+margin-bottom: 3px;
+border-radius: 2px;
+}
+
+.uno{
+margin-top: 20px;
+background-color: #faf0be;
+}
+
+.dos{
+background-color: #edc9af;
+}
+
+.tres{
+background-color: #f08080;
+}
+
+.cuatro{
+background: #3494e6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3494e6, #ec6ead); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3494e6, #ec6ead); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-bottom: 10px;
+}
+
+.caja2{
+width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;
+}
+.P1{
+border: 5px solid white;
+margin: auto;
+width: 55%;
+height: 500px;
+background-color: rgb(119, 118, 118);
+}
+.P1 p{text-align: justify;margin: 90px 50px;font-size: 15pt;}
+.P1 h2{text-align: center;margin-top: 50px;}

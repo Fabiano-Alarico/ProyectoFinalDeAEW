@@ -1,0 +1,42 @@
+.banner{width: 100%;}
+main{width:100%}
+h1{
+    text-align: center;color: brown;font-size: 40pt;
+}
+p{
+    text-align: center;font-size: 25pt;
+}
+img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.caja1{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    background-color: beige;
+}
+.caja1 h2{
+    color: chocolate;
+    text-decoration: underline;
+    font-size: 25pt;
+    margin-left: 20px;
+}
+.caja1 p{text-align: left;font-size: 18pt;}
+legend{
+    text-align: center;font-size: 15pt;font-weight: bold;
+}
+form label{font-size: 15pt;}
+form input{width: 300px;}
+
+.boton{width: 100px;margin-left:120px;}
+
+.caja2{display: flex;flex-direction: column;justify-content: center;align-items: center; width: 45%;padding: 10px;}
+.caja2 h2{text-decoration: underline;color: chocolate;font-size: 20pt;margin: 10px;}
+.caja2 p{font-size: 20pt;text-align: justify;margin: 10px;}
+.c1{background-color: burlywood;margin:50px 10px;}
+.c2{background-color: cornsilk;margin:50px 10px;}
+.caja2 img{height: 500px;}
+
+.caja2 a{padding: 50px;font-size: 35pt;text-decoration: none;color: beige;background-color: darkgreen;margin: 30px;border-radius: 15px;}
